@@ -55,65 +55,79 @@
 
 
 <!-- Création de la première section-->
-<div class="jumbotron">
-  <h1 class="display-4">Partez à l'aventure</h1>
-  <p class="lead">Découvrez notre ècole de surf en peer-learning</p>
-  <div class="sep">
-    <a class="btn btn-primary btn-sm" href="#" role="button"> Je m'inscris à la prochaine session</a>
-    <a class="btn btn-secondary btn-sm" href="#" role="button"> Je découvre le programme</a>
+<div class="jumbotron jumbotron-fluid mb-5">
+  <h1 class="display-4 mt-5 text-white">Partez à l'aventure</h1>
+  <p class="lead text-white">Découvrez notre école de surf en peer-learning</p>
+  <div class="sep mt-5 ">
+    <a class="btn btn-primary btn-sm font-weight-bold" href="#" role="button"> Je m'inscris à la prochaine session</a>
+    <a class="btn btn-secondary btn-sm font-weight-bold" href="#" role="button"> Je découvre le programme</a>
   </div>
 </div>
 
-
 <!-- Création de la deuxième section-->
-<div class="container">
-  <center><h1>The Surfing project en 3 points</h1></center>
-  
-  <div class="elements">
+<div class="container mb-5">
+  <h1 class="text-center mb-4">The Surfing project en 3 points</h1>
 
-    
-      <div class="element1"> 
-      <i style="font-size: 50px" class="fas fa-eye"></i>   <!-- Pas cher -->
-      <p><strong>Pas chère</strong></p>
-      <p><small class="text-muted">Donec sed odio dui. Etiam porta sem malesuada<br>magna mollis euismod. Nullam id dolor id nibh<br>ultricies vehicula ut id elit. Morbi leo risus,porta</small></p>
-    
-
-    
-      <div class="element2"> 
-      <i style="font-size: 50px" class="fas fa-couch"></i>    <!-- Relax -->
-      <p><strong>Relax</strong></p>
+  <div class="d-flex justify-content-around">
+    <div class="d-flex flex-column ">
+      <div class="mx-auto" style="width: 25%"><i style="font-size: 55px" class="fas fa-eye"></i></div>  <!-- Pas cher -->
+      <div class="mx-auto" style="width: 30%"><p class="font-weight-bolder">Pas chère</p></div>
       <p><small class="text-muted">Donec sed odio dui. Etiam porta sem malesuada<br>magna mollis euismod. Nullam id dolor id nibh<br>ultricies vehicula ut id elit. Morbi leo risus,porta</small></p>
     </div>
-    
 
-   
-      <div class="element3"> 
-      <i style="font-size: 50px" class="fas fa-users"></i></div>    <!-- communauté -->
-      <p><strong>Communaute</strong></p>
+    <div class="d-flex flex-column ">
+      <div class="mx-auto" style="width: 25%"><i style="font-size: 55px" class="fas fa-couch"></i></div>   <!-- Relax -->
+      <div class="mx-auto" style="width: 20%"><p class="font-weight-bolder">Relax</p></div>
       <p><small class="text-muted">Donec sed odio dui. Etiam porta sem malesuada<br>magna mollis euismod. Nullam id dolor id nibh<br>ultricies vehicula ut id elit. Morbi leo risus,porta</small></p>
     </div>
-     
 
+    <div class="d-flex flex-column ">
+      <div class="mx-auto" style="width: 25%"><i style="font-size: 55px" class="fas fa-users"></i></div>   <!-- La communauté -->
+      <div class="mx-auto" style="width: 45%"><p class="font-weight-bolder">La communauté</p></div> 
+      <p><small class="text-muted">Donec sed odio dui. Etiam porta sem malesuada<br>magna mollis euismod. Nullam id dolor id nibh<br>ultricies vehicula ut id elit. Morbi leo risus,porta</small></p>
+    </div>
   </div>
-
 </div>
 
 
 <!-- Création de la troisième section-->
 <div class="container">
-  <center><h1>Témoignages</h1></center>
+  <div class="mb-4"><h1 class="text-center">Témoignages</h1></div>
 
-  <div class="container px-lg-5">
+  <div class="d-flex justify-content-center">
+
+    <div class="card mr-3 h-100" style="width: 27rem;">
+      <img src="surfing1.jpg" class="card-img-top">
+      <div class="card-body bg-light">
+      <p class="card-text medium text-dark font-weight-bold">Surfing's not a sport, it's a way of life, it's no hobby, it's a way of looking at that wave and saying. "Hey bud, let's party!"</p>
+      <p class="card-text small text-muted">Ibrahima, Avril 2019</p>
+      </div>
+    </div>
+ 
+    <div class="card ml-3 h-100 " style="width: 27rem;">
+      <img src="surfing2.jpg" style="height: 267px" class="card-img-top">
+      <div class="card-body bg-light">
+      <p class="card-text medium text-dark font-weight-bold">Grâce à TSP je fait le tour du monde avec mon van et je fais du surf! Si l'expérience était à refaire, je la referais.</p>
+      <p class="card-text small text-muted">DIALLO, Octobre 2018</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+  <!--<div class="container px-lg-5">
     <div class="row mx-lg-n5">
       <div class="col py-3 px-lg-5 border bg-light"><img src="surfing1.jpg" style="width: 390px"><p><small class="text-muted">Surfing's not a sport, it's a way of life, it's no hobby, it's a way of<br>looking at that wave and saying. "Hey bud, let's party!"</small></p><p><small>Ibrahima, Avril 2019</small></p></div>
       <div class="col py-3 px-lg-5 border bg-light"><img src="surfing2.jpg" style="width: 460px"><p><small class="text-muted">Surfing's not a sport, it's a way of life, it's no hobby, it's a way of<br>looking at that wave and saying. "Hey bud, let's party!"</small></p><p><small>DIALLO, Octobre 2018</small> </p></div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Création de la dernière section-->
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4">Prix</h1>
+  <div class="mb-4"><h1 class="text-center">Prix</h1>
 
 <div class="container">
 

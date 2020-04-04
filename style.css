@@ -5,7 +5,7 @@
   flex-direction: column; /* droite est la direction des menus*/
   align-items: center;
   /* Choisis la hauteur ici */
-  height: 250px;
+  height: 460px;
 
   /* Tu lui donnes une image de background */
   background-image: url("surfing1.jpg");
@@ -18,24 +18,3 @@
 }
 
 
-.elements
-{
-  display:flex;
-  flex-direction: row; /* droite est la direction des menus*/	
-  justify-content: center;
-}
-
-
-
-.container px-lg-5
-{
-	background-image: url("surfing1.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.lead
-{
-	color: white;
-}
